@@ -22,7 +22,7 @@ def invalid_credit_card_number():
 def main():
     main_check = True
     while main_check:
-        credit_card_number = reversed(list(input("Type the credit card number that you want to check: ")))
+        credit_card_number = reversed(list(input("Type the credit card number that you want to validate: ")))
         for chu_so in credit_card_number:
             if chu_so.isdigit == True:
                 pass
