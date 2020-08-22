@@ -22,7 +22,7 @@ def invalid_credit_card_number():
 def main():
     main_check = True
     while main_check:
-        credit_card_number = reversed(list(input("Type the credit card number that you want to validate: ")))
+        credit_card_number = reversed(list(input("Type the credit card number that you want to check: ")))
         for chu_so in credit_card_number:
             if chu_so.isdigit == True:
                 pass
@@ -37,7 +37,7 @@ def main():
         if 12 <= so_chu_so <= 19:
             pass
         else:
-            invalid_credit_card_number()     # invalid creadit card number
+            invalid_credit_card_number()     # invalid credit card number
             break
 
     #check de them nhung chu so tu thu 1 cho den cuoi
@@ -61,3 +61,6 @@ def main():
         else:
             invalid_credit_card_number()
             break
+
+# fulfilling functions
+main ()
