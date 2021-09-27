@@ -1,0 +1,21 @@
+
+h2{
+	background-color: yellow;
+	color: blue;
+}
+
+
+footer p {
+	color: orange;
+	text-decoration: underline;
+}
+
+#demo {
+	color: red;
+}
+
+.intro {
+	color: purple;
+	background-color: lightblue;
+}
+
