@@ -4,3 +4,5 @@ Ví dụ:
   ...Nhập vào: abcdfodafdjafhe (không hợp lệ) |
      Nhập vào: 375796084459914 (không hợp lệ) |
      Nhập vào: 371612019985236 (hợp lệ)
+     
+     chương trình lệnh: check_so_the_tin_dung.py
